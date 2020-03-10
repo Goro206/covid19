@@ -164,29 +164,6 @@ export default {
           title: this.$t('Government official website'),
           link: 'https://www.pref.aichi.jp/',
           divider: true
-        },
-        {
-          icon: 'parent',
-          title: this.$t('for Families with children'),
-          link: '/parent'
-        },
-        {
-          title: this.$t('Other local Government'),
-        },
-        {
-          title: this.$t('Other local Govt_Tokyo'),
-          link:
-            'https://stopcovid19.metro.tokyo.lg.jp'
-        },
-        {
-          title: this.$t('Other local Govt_Hokkaido'),
-          link:
-            'https://stopcovid19.hokkaido.dev'
-        },
-        {
-          title: this.$t('Other local Govt_Kanagawa'),
-          link:
-            'https://stopcovid19.kanagawa.work'
         }
       ]
     },
