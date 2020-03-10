@@ -174,7 +174,7 @@ const config: Configuration = {
   },
   manifest: {
     name: '愛知県 新型コロナウイルス感染症対策サイト',
-    theme_color: '#00a040',
+    theme_color: '#A63C47',
     background_color: '#ffffff',
     display: 'standalone',
     Scope: '/',
