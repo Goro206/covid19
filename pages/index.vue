@@ -22,7 +22,7 @@
           :date="Data.patients.date"
           :unit="'人'"
           :url="
-            'https://www.pref.aichi.jp/uploaded/attachment/325049.pdf'
+            'https://www.pref.aichi.jp/uploaded/attachment/325314.pdf'
           "
         />
       </v-col>
@@ -35,7 +35,7 @@
           :date="Data.patients.date"
           :info="sumInfoOfPatients"
           :url="
-            'https://www.pref.aichi.jp/uploaded/attachment/325049.pdf'
+            'https://www.pref.aichi.jp/uploaded/attachment/325314.pdf'
           "
         />
       </v-col>
