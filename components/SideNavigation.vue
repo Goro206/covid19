@@ -40,21 +40,21 @@
       <div class="SideNavigation-Footer">
         <div class="SideNavigation-SocialLinkContainer">
           <a
-            href="https://line.me/R/ti/p/%40822sysfc"
+            href="https://www.pref.aichi.jp/soshiki/joho/0000063828.html"
             target="_blank"
             rel="noopener"
           >
             <img src="/line.png" alt="LINE" />
           </a>
           <a
-            href="https://twitter.com/tokyo_bousai"
+            href="https://twitter.com/pref_aichi"
             target="_blank"
             rel="noopener"
           >
             <img src="/twitter.png" alt="Twitter" />
           </a>
           <a
-            href="https://www.facebook.com/tochokoho"
+            href="https://ja-jp.facebook.com/aichikoho/"
             target="_blank"
             rel="noopener"
           >
@@ -62,8 +62,8 @@
           </a>
         </div>
         <small class="SideNavigation-Copyright" lang="en">
-          Copyright &copy; 2020 Tokyo Metropolitan Government. All Rights
-          Reserved.
+          Copyright &copy; 2020 Aichi Prefectural Government. 
+          All Rights Reserved.
         </small>
       </div>
     </div>
@@ -78,17 +78,17 @@
     "Aichi": "愛知県",
     "COVID-19": "新型コロナウイルス感染症",
     "Measures site": "対策サイト",
-    "Tokyo Metropolitan Government": "東京都",
-    "Tokyo COVID-19 Task Force": "新型コロナウイルス感染症対策本部",
+    "Aichi Prefectual Government": "愛知県",
+    "Aichi COVID-19 Task Force": "新型コロナウイルス感染症対策本部",
     "The latest updates": "県内の最新感染動向",
     "If you have any symptoms": "新型コロナウイルス感染症が心配なときに",
     "for Families with children": "お子様をお持ちの皆様へ",
     "for Citizens": "県民の皆様へ",
     "for Enterprises and Employees": "企業の皆様・はたらく皆様へ",
-    "Official statements from Task Force": "東京都新型コロナウイルス感染症対策本部報",
-    "Cancelled public events": "東京都主催等 中止又は延期するイベント等",
-    "Government official website": "東京都公式ホームページ",
-    "Message from Governor Koike": "知事からのメッセージ",
+    "Official statements from Task Force": "愛知県新型コロナウイルス感染症対策本部報",
+    "Cancelled public events": "愛知県主催等 中止又は延期するイベント等",
+    "Government official website": "愛知県公式ホームページ",
+    "Message from Governor": "知事からのメッセージ",
     "About us": "当サイトについて"
   }
 }
@@ -129,7 +129,7 @@ export default {
         {
           icon: 'mdi-account-multiple',
           title: this.$t('for Citizens'),
-          link: 'https://www.metro.tokyo.lg.jp/tosei/tosei/news/2019-ncov.html'
+          link: 'https://www.pref.aichi.jp/soshiki/kenkotaisaku/novel-coronavirus.html'
         },
         {
           icon: 'mdi-domain',
@@ -140,17 +140,17 @@ export default {
         {
           title: this.$t('Official statements from Task Force'),
           link:
-            'https://www.bousai.metro.tokyo.lg.jp/taisaku/saigai/1007261/index.html'
+            'https://www.pref.aichi.jp/soshiki/kenkotaisaku/novel-coronavirus-taisakuhonbu.html'
         },
         {
           title: this.$t('Cancelled public events'),
           link:
-            'https://www.seisakukikaku.metro.tokyo.lg.jp/information/event02.html'
+            'https://www.pref.aichi.jp/soshiki/master/eventinfo-corona.html'
         },
         {
-          title: this.$t('Message from Governor Koike'),
+          title: this.$t('Message from Governor'),
           link:
-            'https://www.metro.tokyo.lg.jp/tosei/governor/governor/katsudo/2020/03/03_00.html'
+            'https://www.pref.aichi.jp/chiji/message/index00.html'
         },
         {
           title: this.$t('About us'),
@@ -158,7 +158,7 @@ export default {
         },
         {
           title: this.$t('Government official website'),
-          link: 'https://www.metro.tokyo.lg.jp/',
+          link: 'https://www.pref.aichi.jp/',
           divider: true
         }
       ]
