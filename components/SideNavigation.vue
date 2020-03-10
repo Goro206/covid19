@@ -89,10 +89,10 @@
     "Cancelled public events": "愛知県主催等 中止又は延期するイベント等",
     "Government official website": "愛知県公式ホームページ",
     "Message from Governor": "知事からのメッセージ",
-    "About us": "当サイトについて"
-    "Other local Government": "他自治体の対策サイト"
-    "Other local Govt_Tokyo": "東京都"
-    "Other local Govt_Hokkaido": "北海道"
+    "About us": "当サイトについて",
+    "Other local Government": "他自治体の対策サイト",
+    "Other local Govt_Tokyo": "東京都",
+    "Other local Govt_Hokkaido": "北海道",
     "Other local Govt_Kanagawa": "神奈川県"
   }
 }
@@ -163,6 +163,22 @@ export default {
         {
           title: this.$t('Government official website'),
           link: 'https://www.pref.aichi.jp/',
+          divider: true
+        },
+        {
+          title: this.$t('Other local Government')
+        },
+        {
+          title: this.$t('Other local Govt_Tokyo'),
+          link: 'https://stopcovid19.metro.tokyo.lg.jp/'
+        },
+        {
+          title: this.$t('Other local Govt_Hokkaido'),
+          link: 'https://stopcovid19.hokkaido.dev/'
+        },
+        {
+          title: this.$t('Other local Govt_Kanagawa'),
+          link: 'https://stopcovid19.kanagawa.work/',
           divider: true
         }
       ]
