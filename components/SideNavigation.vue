@@ -78,7 +78,7 @@
     "Aichi": "愛知県",
     "COVID-19": "新型コロナウイルス感染症",
     "Measures site": "対策サイト",
-    "Aichi Prefectual Government": "愛知県",
+    "Aichi Prefectural Government": "愛知県",
     "Aichi COVID-19 Task Force": "新型コロナウイルス感染症対策本部",
     "The latest updates": "県内の最新感染動向",
     "If you have any symptoms": "新型コロナウイルス感染症が心配なときに",
@@ -90,6 +90,10 @@
     "Government official website": "愛知県公式ホームページ",
     "Message from Governor": "知事からのメッセージ",
     "About us": "当サイトについて"
+    "Other local Government": "他自治体の対策サイト"
+    "Other local Govt_Tokyo": "東京都"
+    "Other local Govt_Hokkaido": "北海道"
+    "Other local Govt_Kanagawa": "神奈川県"
   }
 }
 </i18n>
@@ -160,7 +164,30 @@ export default {
           title: this.$t('Government official website'),
           link: 'https://www.pref.aichi.jp/',
           divider: true
-        }
+        },
+        {
+          icon: 'parent',
+          title: this.$t('for Families with children'),
+          link: '/parent'
+        },
+        {
+          title: this.$t('Other local Government'),
+        },
+        {
+          title: this.$t('Other local Govt_Tokyo'),
+          link:
+            'https://stopcovid19.metro.tokyo.lg.jp'
+        },
+        {
+          title: this.$t('Other local Govt_Hokkaido'),
+          link:
+            'https://stopcovid19.hokkaido.dev'
+        },
+        {
+          title: this.$t('Other local Govt_Kanagawa'),
+          link:
+            'https://stopcovid19.kanagawa.work'
+        },
       ]
     },
     isClass() {
