@@ -2,13 +2,13 @@
   "newsItems": [
     {
       "date": "2020/03/09",
-      "url": "https://www.bousai.metro.tokyo.lg.jp/taisaku/saigai/1007261/1007462.html",
-      "text": "都の備蓄マスク20万枚を都内全区市町村へ提供"
+      "url": "https://www.pref.aichi.jp//soshiki/kenkotaisaku/novel-coronavirus.html#soudan",
+      "text": "新型コロナウイルス感染症に関する一般相談窓口についてはこちらをご覧ください"
     },
     {
       "date": "2020/03/09",
-      "url": "https://www.fukushihoken.metro.tokyo.lg.jp/oshirase/iryo/maskhaifu0306.html",
-      "text": "都内医療機関及び保健所等へのマスクの配布について"
+      "url": "https://www.pref.aichi.jp//soshiki/kenkotaisaku/novel-coronavirus.html#kikokusha",
+      "text": "新型コロナウイルスの感染が疑われる方はこちらをご覧ください（帰国者・接触者相談センター）"
     }
   ]
 }
