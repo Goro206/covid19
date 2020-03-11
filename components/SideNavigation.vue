@@ -178,7 +178,7 @@ export default {
         },
         {
           title: this.$t('Other local Govt_Kanagawa'),
-          link: 'https://stopcovid19.kanagawa.work/',
+          link: 'https://www.pref.kanagawa.jp/osirase/1369/',
           divider: true
         }
       ]
