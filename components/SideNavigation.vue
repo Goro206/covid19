@@ -94,7 +94,7 @@
     "Other local Govt_Tokyo": "東京都",
     "Other local Govt_Hokkaido": "北海道",
     "Other local Govt_Kanagawa": "神奈川県",
-    "Other local Govt_Osaka": "大阪府(作成中)",
+    "Other local Govt_Osaka": "大阪府(誰かが作成中)",
     "Other local Govt_Kyusyu": "九州"
   }
 }
