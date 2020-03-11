@@ -93,7 +93,9 @@
     "Other local Government": "他自治体の対策サイト",
     "Other local Govt_Tokyo": "東京都",
     "Other local Govt_Hokkaido": "北海道",
-    "Other local Govt_Kanagawa": "神奈川県"
+    "Other local Govt_Kanagawa": "神奈川県",
+    "Other local Govt_Osaka": "大阪府(作成中)",
+    "Other local Govt_Kyusyu": "九州"
   }
 }
 </i18n>
@@ -178,7 +180,15 @@ export default {
         },
         {
           title: this.$t('Other local Govt_Kanagawa'),
-          link: 'https://www.pref.kanagawa.jp/osirase/1369/',
+          link: 'https://www.pref.kanagawa.jp/osirase/1369/'
+        },
+        {
+          title: this.$t('Other local Govt_Osaka'),
+          link: ' '
+        },
+        {
+          title: this.$t('Other local Govt_Kyusyu'),
+          link: 'https://dev-covid19-kyusyu.netlify.com',
           divider: true
         }
       ]
