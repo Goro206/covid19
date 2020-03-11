@@ -18,6 +18,9 @@ Issues にあるいろいろな修正にご協力いただけると嬉しいで�
 
 ### 環境構築の手順
 
+★北海道版を作成した方のサイトがとても分かりやすかったです。
+　https://tech.moyashidaisuke.com/entry/covid19-netlify
+
 - 必要となるNode.jsのバージョン: 10.19.0以上
 
 **yarn を使う場合**
