@@ -47,9 +47,8 @@
           :date="Data.inspections_summary.date"
           :items="inspectionsItems"
           :labels="inspectionsLabels"
-          :unit="$t('件.tested')"
+          :unit="$t('件')"
         />
-        <!-- 件.tested = 検査数 -->
       </v-col>
     </v-row>
   </div>
