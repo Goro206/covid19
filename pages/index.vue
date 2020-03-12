@@ -38,6 +38,19 @@
           "
         />
       </v-col>
+      <v-col cols="12" md="6" class="DataCard">
+        <time-stacked-bar-chart
+          :title="'検査実施数'"
+          :title-id="'number-of-tested'"
+          :chart-id="'time-stacked-bar-chart-inspections'"
+          :chart-data="inspectionsGraph"
+          :date="Data.inspections_summary.date"
+          :items="inspectionsItems"
+          :labels="inspectionsLabels"
+          :unit="$t('件.tested')"
+        />
+        <!-- 件.tested = 検査数 -->
+      </v-col>
     </v-row>
   </div>
 </template>
@@ -91,7 +104,7 @@ export default {
       Data.inspections_summary.data['その他']
     ]
     const inspectionsItems = [
-      '県内発生（疑い例・接触者調査）',
+      '県内実施（疑い例・接触者調査）',
       'その他（チャーター便・クルーズ船）'
     ]
     const inspectionsLabels = Data.inspections_summary.labels
