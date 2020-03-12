@@ -2,7 +2,7 @@
   <data-view :title="title" :title-id="titleId" :date="date">
     <template v-slot:button>
       <p class="Graph-Desc">
-        （注）同一の対象者について複数の検体を調査する場合あり
+        （注）2/29に登録した数値は1/30-2/29の合計
       </p>
       <data-selector v-model="dataKind" />
     </template>
@@ -133,10 +133,10 @@ export default {
             label: tooltipItem => {
               const labelText =
                 this.dataKind === 'transition'
-                  ? `${sumArray[tooltipItem.index]}${unit}（都内: ${
+                  ? `${sumArray[tooltipItem.index]}${unit}（県内: ${
                       data[0][tooltipItem.index]
                     }/その他: ${data[1][tooltipItem.index]}）`
-                  : `${cumulativeSumArray[tooltipItem.index]}${unit}（都内: ${
+                  : `${cumulativeSumArray[tooltipItem.index]}${unit}（県内: ${
                       cumulativeData[0][tooltipItem.index]
                     }/その他: ${cumulativeData[1][tooltipItem.index]}）`
               return labelText
