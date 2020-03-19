@@ -21,7 +21,7 @@ type DataType = {
           ]
         },
         {
-          attr: '退院'
+          attr: '退院・転院'
           value: number
         },
         {
