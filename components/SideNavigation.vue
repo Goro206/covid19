@@ -124,7 +124,7 @@ export default {
         },
         {
           title: this.$t('Government official website'),
-          link: 'https://www.pref.aichi.jp/'
+          link: 'https://www.pref.aichi.jp/site/covid19-aichi/'
         },
         {
           title: this.$t('About us'),
