@@ -122,34 +122,6 @@ export default {
           link: '/flow',
           divider: true
         },
-        <!--
-        {
-          icon: 'parent',
-          title: this.$t('for Families with children'),
-          link: '/parent'
-        },
-        {
-          icon: 'mdi-account-multiple',
-          title: this.$t('for Citizens'),
-          link: 'https://www.pref.aichi.jp/soshiki/kenkotaisaku/novel-coronavirus.html'
-        },
-        {
-          icon: 'mdi-domain',
-          title: this.$t('for Enterprises and Employees'),
-          link: '/worker',
-          divider: true
-        },
-        {
-          title: this.$t('Official statements from Task Force'),
-          link:
-            'https://www.pref.aichi.jp/soshiki/kenkotaisaku/novel-coronavirus-taisakuhonbu.html'
-        },
-        {
-          title: this.$t('Cancelled public events'),
-          link:
-            'https://www.pref.aichi.jp/soshiki/master/eventinfo-corona.html'
-        },
-        -->
         {
           title: this.$t('Government official website'),
           link: 'https://www.pref.aichi.jp/'
