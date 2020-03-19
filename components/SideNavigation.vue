@@ -163,7 +163,7 @@ export default {
           divider: true
         },
         {
-          title: this.$t('Other local Government')
+          title: this.$t('Other local Government'),
           link: 'https://github.com/tokyo-metropolitan-gov/covid19/blob/development/FORKED_SITES.md#readme'
         }
       ]
