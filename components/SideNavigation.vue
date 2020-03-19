@@ -122,6 +122,7 @@ export default {
           link: '/flow',
           divider: true
         },
+        <!--
         {
           icon: 'parent',
           title: this.$t('for Families with children'),
@@ -148,18 +149,14 @@ export default {
           link:
             'https://www.pref.aichi.jp/soshiki/master/eventinfo-corona.html'
         },
+        -->
         {
-          title: this.$t('Message from Governor'),
-          link:
-            'https://www.pref.aichi.jp/chiji/message/index00.html'
+          title: this.$t('Government official website'),
+          link: 'https://www.pref.aichi.jp/'
         },
         {
           title: this.$t('About us'),
-          link: '/about'
-        },
-        {
-          title: this.$t('Government official website'),
-          link: 'https://www.pref.aichi.jp/',
+          link: '/about',
           divider: true
         },
         {
