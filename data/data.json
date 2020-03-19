@@ -3224,11 +3224,11 @@
         "children": [
             {
                 "attr": "陽性患者数",
-                "value": 125,
+                "value": 130,
                 "children": [
                     {
                         "attr": "入院中",
-                        "value": 92,
+                        "value": 97,
                         "children": [
                             {
                                 "attr": "軽症・中等症",
@@ -3241,8 +3241,8 @@
                         ]
                     },
                     {
-                        "attr": "退院",
-                        "value": 18
+                        "attr": "退院・転院",
+                        "value": 19
                     },
                     {
                         "attr": "死亡",
