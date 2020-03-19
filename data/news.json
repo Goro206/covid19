@@ -1,19 +1,24 @@
 {
   "newsItems": [
     {
+      "date": "2020/03/19",
+      "url": "https://www.pref.aichi.jp/site/covid19-aichi/soudan-korona.html",
+      "text": "新型コロナウィルス感染拡大に伴う不安等の相談について"
+    },
+    {
+      "date": "2020/03/19",
+      "url": "https://www.pref.aichi.jp/police/kinkyu/singatacorona-link.html",
+      "text": "愛知県県警からのお知らせです（コロナによる運転免許更新等の案内）"
+    },
+    {
+      "date": "2020/03/17",
+      "url": "https://www.pref.aichi.jp/soshiki/kenkotaisaku/novel-coronavirus.html",
+      "text": "愛知県新型コロナウイルス感染症対策サイトをオープンしました。"
+    },
+    {
       "date": "2020/03/11",
       "url": "https://www.youtube.com/watch?v=k042KMfq0G0&feature=youtu.be",
       "text": "臨時知事記者会見"
-    },
-    {
-      "date": "2020/03/09",
-      "url": "https://www.pref.aichi.jp//soshiki/kenkotaisaku/novel-coronavirus.html#soudan",
-      "text": "新型コロナウイルス感染症に関する一般相談窓口についてはこちらをご覧ください"
-    },
-    {
-      "date": "2020/03/09",
-      "url": "https://www.pref.aichi.jp//soshiki/kenkotaisaku/novel-coronavirus.html#kikokusha",
-      "text": "新型コロナウイルスの感染が疑われる方はこちらをご覧ください（帰国者・接触者相談センター）"
     }
   ]
 }
