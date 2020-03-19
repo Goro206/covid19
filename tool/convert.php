@@ -298,7 +298,7 @@ $data['main_summary'] = [
           ]
         ],
         [
-          'attr' => '退院',
+          'attr' => '退院・転院',
           'value' => $better_patients_summary['data']['退院者数']->sum()
         ],
         [
