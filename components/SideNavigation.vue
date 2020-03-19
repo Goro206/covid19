@@ -90,12 +90,7 @@
     "Government official website": "愛知県公式ホームページ",
     "Message from Governor": "知事からのメッセージ",
     "About us": "当サイトについて",
-    "Other local Government": "他自治体の対策サイト",
-    "Other local Govt_Tokyo": "東京都",
-    "Other local Govt_Hokkaido": "北海道",
-    "Other local Govt_Kanagawa": "神奈川県",
-    "Other local Govt_Osaka": "大阪府(誰かが作成中)",
-    "Other local Govt_Kyusyu": "九州(データが不正確)"
+    "Other local Government": "他自治体の対策サイト"
   }
 }
 </i18n>
@@ -169,27 +164,7 @@ export default {
         },
         {
           title: this.$t('Other local Government')
-        },
-        {
-          title: this.$t('Other local Govt_Tokyo'),
-          link: 'https://stopcovid19.metro.tokyo.lg.jp/'
-        },
-        {
-          title: this.$t('Other local Govt_Hokkaido'),
-          link: 'https://stopcovid19.hokkaido.dev/'
-        },
-        {
-          title: this.$t('Other local Govt_Kanagawa'),
-          link: 'https://www.pref.kanagawa.jp/osirase/1369/'
-        },
-        {
-          title: this.$t('Other local Govt_Osaka'),
-          link: ' '
-        },
-        {
-          title: this.$t('Other local Govt_Kyusyu'),
-          link: 'https://dev-covid19-kyusyu.netlify.com',
-          divider: true
+          link: 'https://github.com/tokyo-metropolitan-gov/covid19/blob/development/FORKED_SITES.md#readme'
         }
       ]
     },
