@@ -4338,19 +4338,19 @@
         "children": [
             {
                 "attr": "陽性患者数",
-                "value": 228,
+                "value": 239,
                 "children": [
                     {
                         "attr": "入院中",
-                        "value": 130,
+                        "value": 140,
                         "children": [
                             {
                                 "attr": "軽症・中等症",
-                                "value": 123
+                                "value": 134
                             },
                             {
                                 "attr": "重症",
-                                "value": 7
+                                "value": 6
                             }
                         ]
                     },
@@ -4360,7 +4360,7 @@
                     },
                     {
                         "attr": "死亡",
-                        "value": 20
+                        "value": 21
                     }
                 ]
             }
