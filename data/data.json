@@ -5836,21 +5836,21 @@
                 "children": [
                     {
                         "attr": "入院中",
-                        "value": 212,
+                        "value": 198,
                         "children": [
                             {
                                 "attr": "軽症・中等症",
-                                "value": 208
+                                "value": 193
                             },
                             {
                                 "attr": "重症",
-                                "value": 4
+                                "value": 5
                             }
                         ]
                     },
                     {
                         "attr": "退院・転院",
-                        "value": 157
+                        "value": 173
                     },
                     {
                         "attr": "死亡",
